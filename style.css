@@ -1,0 +1,22 @@
+*{
+    animation: death 10s infinite;
+}
+
+
+@keyframes death{
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+.spinnyboi{
+    animation: spin 5s infinite linear;
+    width:50px;
+}
+
+@keyframes spin{
+    0% {transform:rotate(0);}
+    50% {transform:rotate(180deg);}
+    100% {transform:rotate(360deg);}
+}
